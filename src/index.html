@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../dist/output.css" />
+
+    <title>Jornadas de Seguridad Informática</title>
+  </head>
+  <body>
+    <header>
+      <nav class="bg-gray-100 shadow-md">
+        <div
+          class="container mx-auto flex items-center justify-between py-4 px-6"
+        >
+          <a href="#">
+            <img
+              src="./assets/images/logo.png"
+              alt="Logo"
+              class="h-10 w-auto"
+            />
+          </a>
+          <ul class="flex space-x-6">
+            <li>
+              <a href="participantes.html" class="text-blue hover:underline"
+                >Participantes
+              </a>
+            </li>
+            <li>
+              <a href="" class="text-blue hover:underline">Información</a>
+            </li>
+            <li>
+              <a href="" class="text-blue hover:underline">Extra</a>
+            </li>
+            <li>
+              <a href="figma.html" class="text-blue hover:underline">Figma</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container mx-auto py-8">
+      <section class="text-center rounded shadow card">
+        <div class="max-w-md mx-auto">
+          <img
+            src="./assets/images/portada.png"
+            alt="Seguridad Informática"
+            class="rounded-lg shadow-lg"
+          />
+        </div>
+        <h1 class="mt-6 text-4xl font-bold text-blue">
+          Jornadas de Seguridad Informática
+        </h1>
+
+        <include src="./components/masinfo.html"></include>
+      </section>
+    </main>
+
+    <include src="./views/footer.html"></include>
+  </body>
+</html>
